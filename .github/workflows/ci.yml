@@ -1,7 +1,7 @@
 on:
-    pull_requests
+    pull_request:
     push:
-    workflow_dispatch
+    workflow_dispatch:
 
 jobs:
     test:
